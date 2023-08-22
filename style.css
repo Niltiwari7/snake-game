@@ -1,0 +1,47 @@
+#gameContainer {
+    text-align: center;
+    background-color: #f0f0f0; /* Background color for the container */
+    padding: 20px; /* Add some padding for spacing */
+}
+
+#gameBoard {
+    border: 3px solid #333; /* Darker border color */
+    border-radius: 10px; /* Rounded corners for the board */
+    display: inline-block; /* Center the board horizontally */
+    padding: 20px; /* Add some padding inside the board */
+    background-color: #fff; /* White background for the board */
+    width: 500px; /* Set the width of the game board */
+    height: 478px; /* Set the height of the game board */
+}
+
+
+#scoreText {
+    font-family: "Permanent Marker", cursive;
+    font-size: 60px; /* Slightly smaller font size */
+    margin-top: 20px; /* Add some space between the board and score */
+    color: #333; /* Darker text color */
+}
+
+#resetBtn {
+    font-family: "Permanent Marker", cursive;
+    font-size: 18px; /* Slightly smaller font size */
+    width: 120px; /* Wider button */
+    height: 50px;
+    border: 4px solid #333; /* Darker border color */
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #f0f0f0; /* Background color for the button */
+    color: #333; /* Text color */
+    margin-top: 20px; /* Add some space between the score and button */
+    display: block; /* Make the button a block element */
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+    transition: background-color 0.3s, color 0.3s; /* Smooth color transition */
+}
+
+
+
+#resetBtn:hover {
+    background-color: #333; /* Darker background on hover */
+    color: #fff; /* White text on hover */
+}
