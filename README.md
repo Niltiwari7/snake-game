@@ -30,8 +30,8 @@ To play the game or contribute to the project, follow these steps:
 
 ### Technologies Used
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 
 ### Screenshots
